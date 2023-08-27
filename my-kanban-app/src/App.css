@@ -1,0 +1,54 @@
+.App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .add-task-form {
+    margin-bottom: 20px;
+  }
+  
+  .add-task-form input {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .board {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .column {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    min-width: 250px;
+    background-color: skyblue;
+    border-radius: 5px;
+  }
+  
+  .task-list {
+    min-height: 100px;
+  }
+  
+  .task {
+    border: 1px solid #aaa;
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+  }
+  
+  .edit-task-form {
+    margin-top: 10px;
+  }
+  
+  .edit-task-form input {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: orange; 
+}
+  
